@@ -7,7 +7,7 @@
 <body>
 <?php
 require ('php/abc.php');
-require ('php/formula.php');
+
 ?>
 
 <form action="php/abc.php" method="post">
