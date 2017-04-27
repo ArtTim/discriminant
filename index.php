@@ -6,13 +6,15 @@
 </head>
 <body>
 <?php
-require_once ('php/formula.php');
-require_once ('php/abc.php');
+require ('php/abc.php');
+require ('php/formula.php');
 ?>
-<form action="foo.php" method="post">
-    Имя:  <input type="text" name="username" /><br />
-    Email: <input type="text" name="email" /><br />
-    <input type="submit" name="submit" value="Отправь меня!" />
+
+<form action="php/abc.php" method="post">
+    a <input type="number" name="a" /><br />
+    b <input type="number" name="b" /><br />
+    c <input type="number" name="c" /><br />
+    <input type="submit" name="submit" value="Вычислить" />
 </form>
 
 </body>

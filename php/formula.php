@@ -1,3 +1,5 @@
+
+
 <?php
 /**
  * Created by PhpStorm.
@@ -5,9 +7,10 @@
  * Date: 27.04.2017
  * Time: 11:33
  */
-
-$a = 5;
-$b = 5;
-$x = 5;
-$c = 5;
-$D = (($a*$x)**2)+($b*$x)+c; //Дискриминант
+//require_once ('/../index.php');
+require_once ('abc.php');
+echo $a . '<br>';
+echo $b . '<br>';
+echo $c . '<br>';
+?>
+<a href="../index.php">Вернуться</a>
